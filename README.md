@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# 🚀 Rocket Fit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de e-commerce desenvolvido com **Vite + React + TypeScript + Tailwind CSS + pnpm**.  
+O site permite navegação SPA (Single Page Application) rápida e fluida, com funcionalidades como busca de produtos, categorias, carrinho de compras, favoritos e login de usuário (front-end).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Funcionalidades
 
-## Expanding the ESLint configuration
+- 🛍️ Lista de produtos com detalhes individuais
+- 🛒 Carrinho de compras usando Context API (estado global)
+- ❤️ Sistema de favoritos
+- 🔍 Busca de produtos por nome e por categoria
+- 📂 Filtro por categorias com dropdown no menu
+- 👤 Página de login (frontend)
+- 🧭 Navegação SPA (Single Page Application)
+- 📱 Interface responsiva com Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ⚙️ Tecnologias usadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [pnpm](https://pnpm.io/)
+- [Lucide Icons](https://lucide.dev/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📚 Passo a passo para rodar o projeto
+
+1. Clone o repositório na sua máquina:
+git clone <URL-do-repositório>
+
+2. Entre na pasta do projeto:
+cd rocket-ecommerce
+
+3. Instale as dependências usando pnpm:
+pnpm install
+
+4. Rode o servidor de desenvolvimento:
+pnpm dev
+
+5. Abra o navegador e acesse:
+http://localhost:5173 (ou a porta que o Vite informar)
+
+6.Para encerrar, use Ctrl+C no terminal.
+
+---
+
+## Feito por [Arthur Borba Lins](https://www.linkedin.com/in/arthur-lins-1695b222b/)
