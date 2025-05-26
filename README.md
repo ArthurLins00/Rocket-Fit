@@ -47,7 +47,7 @@ pnpm dev
 5. Abra o navegador e acesse:
 http://localhost:5173 (ou a porta que o Vite informar)
 
-6.Para encerrar, use Ctrl+C no terminal.
+6. Para encerrar, use Ctrl+C no terminal.
 
 ---
 
