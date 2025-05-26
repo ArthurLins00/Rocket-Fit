@@ -37,7 +37,7 @@ export function ProductDetails({ product, onClose, onAddToCart, isFavorite, onTo
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-64 object-cover mb-4 rounded"
+        className="w-full max-h-96 object-contain mb-4 rounded mx-auto"
       />
         <div className="flex items-center justify-between mb-2">
             <h1 className="text-2xl font-bold">{product.name}</h1>
