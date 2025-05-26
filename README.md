@@ -5,6 +5,13 @@ O site permite navegação SPA (Single Page Application) rápida e fluida, com f
 
 ---
 
+## 🌐 Demo Online
+
+O projeto está hospedado e disponível para acesso em:  
+[https://rocket-fit-xi.vercel.app/](https://rocket-fit-xi.vercel.app/)
+
+---
+
 ## 📸 Funcionalidades
 
 - 🛍️ Lista de produtos com detalhes individuais
