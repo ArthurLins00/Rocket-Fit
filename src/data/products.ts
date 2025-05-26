@@ -42,7 +42,7 @@ export const products: Product[] = [
     price: 49.90,
     description: "Kit de meias cano alto esportivas. Contém 3 pares, 100% algodão. Cores: Branco, cinza e preto.",
     comments: [
-      { id: 1, user: "Bruno", comment: "Muito confortáveis.", rating: 5 },
+      { id: 1, user: "Matheus", comment: "Muito confortáveis.", rating: 5 },
       { id: 2, user: "Souza", comment: "Excelente, não deixa chulé.", rating: 5 },
       { id: 3, user: "Marcelo", comment: "O meu par branco veio manchado.", rating: 3 },
     ]
@@ -81,7 +81,7 @@ export const products: Product[] = [
     description: "Garrafa térmica que suporta até 1,5 litros. Disponível nas cores: Branco e preto.",
     comments: [
       { id: 1, user: "Bruno", comment: "Agora eu consigo bater minha meta de água!", rating: 5 },
-      { id: 2, user: "Souza", comment: "Excelente, não deixa chulé.", rating: 4 },
+      { id: 2, user: "Beatriz", comment: "Queria uma na cor rosa...", rating: 4 },
     ]
   },
   {
@@ -92,7 +92,7 @@ export const products: Product[] = [
     price: 29.90,
     description: "Straps super resistentes para auxílio no levantamento de peso.",
     comments: [
-      { id: 1, user: "Bruno", comment: "Ajuda muito no treino de costas, nas puxadas!", rating: 5 },
+      { id: 1, user: "Jorge", comment: "Ajuda muito no treino de costas, principalmente nas puxadas!", rating: 5 },
       { id: 2, user: "Carla", comment: "Meu companheiro no stiff e levantamento terra!", rating: 5 },
     ]
   },
