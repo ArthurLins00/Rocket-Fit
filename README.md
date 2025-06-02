@@ -40,7 +40,7 @@ O projeto está hospedado e disponível para acesso em:
 ## 📚 Passo a passo para rodar o projeto
 
 1. Clone o repositório na sua máquina:
-git clone <URL-do-repositório>
+git clone https://github.com/ArthurLins00/Rocket-Fit.git
 
 2. Entre na pasta do projeto:
 cd rocket-ecommerce
